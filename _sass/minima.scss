@@ -20,15 +20,38 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
-
-.btn-group button {
-	padding: 0px 0px;
-    display: block; /* Make the buttons appear below each other */
+* {
+    box-sizing: border-box;
 }
 
-.btn-group button:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    
 }
+
+.left {
+  width: 20%; height: 100%;
+}
+
+.right {
+  width: 80%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+@media (max-width: 600px) {
+   .column {
+        width: 100%;
+    }
+}
+
 
 
 // Width of the content area
