@@ -1,5 +1,3 @@
-#Learning to Code  
-
 For the past 4 or so weeks I've been learning to code. This actually started sometime ago, about 6 or so years, and I stopped when I wasn't really learning anything.  They always say to have a project in mind when learning, which I did not at the time.  
 
 So, back then, when I was teaching in the Bronx, I decided to try to learn Python.  As I said, I was unsuccessful.  I learned the basics, but couldn't do much with it.  This time was different.  I was in my office one day and my colleague Ann asked me if there was a way to use excel to calculate the time a student uses on tests and whether or not he/she actually needs an extended time accommodation.  I solved that problem quickly, but then the task took on a different layer.  Could I make this into an app? I decided to investigate and attempt to make this an application using Python.  This set me on a path to learning not only Python, but also how to use Qt for the Graphical User Interface (GUI), how to write html and css for the website I wanted so that people could download it, how to package applications for installation in windows.  
