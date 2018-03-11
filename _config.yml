@@ -89,7 +89,7 @@ social:
 analytics:
   provider               : "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-115065150-1"
 
 
 # Site Author
